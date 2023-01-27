@@ -1,9 +1,69 @@
 * {
   box-sizing: border-box;
 }
-
-.awesome {
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 15px;
 }
-
+header {
+  background-color: #1f2937;
+  color: white;
+}
+.link-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+a {
+  color: white;
+}
+.section-1 {
+  background-color: #1f2937;
+}
+/* note: unsure why html isn't respecting these css rules, add inline for now
 .large-img {
+  height: auto;
+  width: 300px;
+} */
+.awesome {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.subtext {
+  color: white;
+}
+.img-container {
+  display: flex;
+}
+.info {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+  font-size: 28px;
+}
+.section-4 {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 15px;
+  height: 100px;
+  width: 1000px;
+  margin: auto;
+}
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
